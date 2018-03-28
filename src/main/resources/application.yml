@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: crawler-producer #服务提供者
+
+server:
+  port: 6661
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6660/eureka/
+
+
+
+
+
